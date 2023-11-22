@@ -1,0 +1,75 @@
+/* Réinitialisation de base et styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Conteneur principal */
+#search-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Champ de recherche et bouton */
+#search-input {
+    width: calc(100% - 120px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+#search-button {
+    width: 100px;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    color: white;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles pour les résultats */
+#results-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.commune {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.commune:last-child {
+    border-bottom: none;
+}
+
+.commune h3 {
+    margin: 0 0 5px 0;
+    color: #007bff;
+}
+
+/* Styles pour les messages d'erreur */
+#error-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #ffdddd;
+    border: 1px solid #ffcccc;
+    color: #d8000c;
+    text-align: center;
+}
